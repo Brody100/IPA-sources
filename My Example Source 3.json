@@ -1,0 +1,52 @@
+{
+  "name": "My Example Source",
+  "subtitle": "A source for all of my apps",
+  "description": "Welcome to my source! Here you'll find all of my apps.",
+  "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
+  "website": "https://altstudio.app",
+  "patreonURL": "https://patreon.com/altstudio",
+  "tintColor": "#6156e2",
+  "featuredApps": [
+    "com.funnmedia.calory"
+  ],
+  "apps": [
+    {
+      "name": "Calory",
+      "bundleIdentifier": "com.funnmedia.calory",
+      "marketplaceID": "",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://i.imgur.com/b7U5hjv.png",
+      "tintColor": "#6b8aec",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://www.mediafire.com/file/r6zem8ptoa3h0i1/Calory_AI_IAP_ipaomtk.com.ipa/file",
+          "size": 145773035,
+          "version": "4.0.4",
+          "buildVersion": "",
+          "date": "2025-04-24T04:28:00-04:00",
+          "localizedDescription": null,
+          "minOSVersion": null,
+          "maxOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "Camera will be used for scanning food UPC barcodes. ",
+          "NSHealthShareUsageDescription": "Your health records will be used to access your calory data and profile details.",
+          "NSHealthUpdateUsageDescription": "Calory will save dietary calory logged by User.",
+          "NSMicrophoneUsageDescription": "Audio is recorded to while searching food. Audio recordings are discarded after transcription.",
+          "NSPhotoLibraryAddUsageDescription": "Calory will share photo of recipe details",
+          "NSPhotoLibraryUsageDescription": "Calory will share photo of recipe details",
+          "NSSpeechRecognitionUsageDescription": "You can view a text transcription of your food search in the app."
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
